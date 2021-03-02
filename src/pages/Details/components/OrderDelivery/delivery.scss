@@ -1,0 +1,32 @@
+.box-order-delivery{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.875em;
+  margin-bottom: 1.250em;
+
+  &-card{
+    background: #fff;
+    padding: 1.250em;
+
+    width: 50%;
+    margin: 0 0.625em;
+
+    &-list{
+      margin-top: 1.563em;
+      padding: 0;
+      
+      list-style: none;
+
+      li{
+        margin-top: 0.625em;
+        
+        font-size: 0.938em;
+
+        span{
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

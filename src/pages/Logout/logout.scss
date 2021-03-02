@@ -1,0 +1,13 @@
+.box-logout{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  &-link{
+    text-decoration: underline;
+    font-size: 1.125em;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase
+  }
+}

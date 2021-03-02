@@ -1,0 +1,39 @@
+.box-track-order{
+  width: 100%;
+  margin-top: 2.188em;
+  
+  border-top: 1px solid #000;
+  
+  &-title{}
+
+  &-line{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      display: inline-flex;
+      font-size: 0.813em;
+      margin-right: 0.313em
+    }
+  }
+
+  &-fill{
+    height: 1.250em;
+    width: 1.250em;
+    margin-right: 0.313em;
+    
+    border-radius: 50%;
+    border: 1px solid #48494a;
+    background: #000;
+  }
+
+  &-unless-fill{
+    height: 1.250em;
+    width: 1.250em;
+    margin-right: 0.313em;
+    
+    border-radius: 50%;
+    border: 1px solid #48494a;
+  }
+}

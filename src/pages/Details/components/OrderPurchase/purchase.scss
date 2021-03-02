@@ -1,0 +1,30 @@
+.box-resume-purchase{
+  margin-top: 2.188em;
+  width: 100%;
+
+  &-table{
+    width: 100%;
+    thead{
+      tr{
+        th{
+          width: 25%;
+          padding-bottom: 0.313em;  
+
+          border-bottom: 1px solid #4c4b4b;
+          text-align: left;
+        }
+      }
+    }
+
+    tbody{
+      tr{
+        td{
+          border-bottom: 1px solid #4c4b4b;
+          
+          padding-top: 0.938em;
+          padding-bottom: 0.938em; 
+        }
+      }
+    }
+  }
+}
